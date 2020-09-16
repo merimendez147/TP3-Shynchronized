@@ -1,6 +1,6 @@
 package Punto2;
 
-public class Curandero extends Personaje implements Runnable{
+public class Curandero extends Personaje {
 	
 	public Curandero(String p, Vida v){
 		super(p, v);

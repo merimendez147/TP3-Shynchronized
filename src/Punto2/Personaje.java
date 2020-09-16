@@ -1,6 +1,6 @@
 package Punto2;
 
-public class Personaje  {
+public abstract class Personaje implements Runnable  {
 	Vida unaVida;
 	String personaje;
 	
