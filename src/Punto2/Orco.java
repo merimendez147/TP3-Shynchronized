@@ -8,7 +8,7 @@ public class Orco extends Personaje {
 	
 	public void run(){
 		while (true){
-		unaVida.quitarVida();}
+		unaVida.quitarVida(3);}
 	}
 
 }

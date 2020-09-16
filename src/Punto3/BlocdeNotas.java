@@ -17,14 +17,14 @@ public BlocdeNotas(){
 	//turno [2]=false;
 }
 
-public void asignarTurno (int i){
+private void asignarTurno (int i){
 	try {
 	turno[i]=true;
 	}catch (ArrayIndexOutOfBoundsException ex){
 		turno[0]=true;
 }}
 
-public void quitarTurno(int i){
+private void quitarTurno(int i){
 	turno[i]=false;
 }
 
@@ -38,7 +38,5 @@ public synchronized void escribir(char l, int i){
 			} else {
 				System.out.println(l);
 				contador=contador +1;
-		}
-		}
-}
-}
+		}}
+}}

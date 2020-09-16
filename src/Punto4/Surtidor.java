@@ -5,7 +5,8 @@ public class Surtidor {
 	public Surtidor(){
 		
 	}
-	public synchronized void cargar(){
+	public synchronized double cargar(){
+		return 50.0;
 		
 	}
 }

@@ -20,6 +20,5 @@ public class Letra implements Runnable{
 	public void run(){
 		while(true){
 		unBloc.escribir(letra, id);}
-	
 	}
 }

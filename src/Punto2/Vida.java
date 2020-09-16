@@ -7,14 +7,14 @@ private int vida;
 	}
 	
 	public synchronized void darVida(){
-		if (vida <3){
+		if (vida >0){
 		vida= vida +3;
 		System.out.println("se da mas vida, vida restante:  "+vida);}
 	}
 	
-	public synchronized void quitarVida(){
-		if (vida >=3){
-		vida = vida - 3;
+	public synchronized void quitarVida(int v){
+		if (vida >0){
+		vida = vida - v;
 		System.out.println("se quita vida, vida restante: "+vida);}
 
 	}
