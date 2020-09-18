@@ -4,7 +4,7 @@ package Punto3;
  * Programación Concurrente - Departamento de Programación - 2020
  * Trabajo práctico Nº 3 - Synchronized
  * Ejercicio Nº 3 - imprime ABBCCCABBCCC
- * @mariamendez
+ * Maria Mendez - Marcos Molina
  */
 
 public class Main {

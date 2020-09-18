@@ -4,11 +4,11 @@ package Punto3;
  * Programación Concurrente - Departamento de Programación - 2020
  * Trabajo práctico Nº 3 - Synchronized
  * Ejercicio Nº 3 - imprime ABBCCCABBCCCABBCCC...
- * @mariamendez
+ * Maria Mendez - Marcos Molina
  */
 public class BlocdeNotas {
 private boolean [] turno;
-private int contador=0;
+private int contador=0; //cuenta la cantidad de letras que se imprimen
 
 public BlocdeNotas(){
 	turno = new boolean[3];

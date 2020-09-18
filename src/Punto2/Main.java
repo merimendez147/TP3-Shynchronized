@@ -1,5 +1,11 @@
 package Punto2;
-
+/*
+ * Facultad de Informática
+ * Programación Concurrente - Departamento de Programación - 2020
+ * Trabajo práctico Nº 3 - Synchronized
+ * Ejercicio Nº 2
+ *  Maria Mendez - Marcos Molina
+ */
 public class Main {
 	public static void main(String [] args){
 		Vida unaVida= new Vida();

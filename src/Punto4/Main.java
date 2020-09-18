@@ -1,5 +1,11 @@
 package Punto4;
-
+/*
+ * Facultad de Informática
+ * Programación Concurrente - Departamento de Programación - 2020
+ * Trabajo práctico Nº 3 - Synchronized
+ * Ejercicio Nº 4 
+ * Maria Mendez - Marcos Molina
+ */
 public class Main {
 
 	public static void main(String [] args){
@@ -9,11 +15,11 @@ public class Main {
 		Auto auto3 = new Auto("CC-403", "RS3", "Audi", 1230, 60.0, s);
 		Auto auto4 = new Auto("CB-143", "I-Pace", "Jaguar", 1200, 55.0, s);
 		Auto auto5 = new Auto("AD-000", "Camaro", "Chevrolet", 3430, 65.0, s);
-		Thread h1= new Thread(auto1);
-		Thread h2= new Thread(auto2);
-		Thread h3= new Thread(auto3);
-		Thread h4= new Thread(auto4);
-		Thread h5= new Thread(auto5);
+		Thread h1= new Thread(auto1, "auto1");
+		Thread h2= new Thread(auto2, "auto2");
+		Thread h3= new Thread(auto3, "auto3");
+		Thread h4= new Thread(auto4, "auto4");
+		Thread h5= new Thread(auto5, "auto5");
 		h1.start();
 		h2.start();
 		h3.start();
