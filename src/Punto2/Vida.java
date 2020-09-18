@@ -22,7 +22,9 @@ private int vida;
 		if (vida >=v){
 		vida = vida - v;
 		System.out.println("se quita vida, vida restante: "+vida);}
-		else{vida=0;}
-
+		else{ 
+			vida=0;
+	        System.out.println("murio personaje");
+		}
 	}
 }
