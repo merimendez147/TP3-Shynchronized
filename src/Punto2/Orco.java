@@ -14,5 +14,6 @@ public class Orco extends Personaje {
 	
 	public void run(){
 		unaVida.quitarVida(3);
+		
 		}
 }

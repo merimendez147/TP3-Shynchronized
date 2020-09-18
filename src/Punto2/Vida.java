@@ -12,19 +12,14 @@ private int vida;
 		vida=10;
 	}
 	
-	public synchronized void darVida(int v){
-		if (vida >0 & vida <10){//Consideramos que si el personaje tiene la vida completa o esta muerto, entonces no podria curarse
-		vida= vida +v;
-		System.out.println("se da mas vida, vida restante:  "+vida);}
+	public  synchronized void darVida(int v){
+		vida= vida + v;
+		System.out.println("se da mas vida, vida restante:  "+vida);
 	}
 	
-	public synchronized void quitarVida(int v){
-		if (vida >=v){
+	public synchronized  void quitarVida(int v){
 		vida = vida - v;
-		System.out.println("se quita vida, vida restante: "+vida);}
-		else{ 
-			vida=0;
-	        System.out.println("murio personaje");
+		System.out.println("se quita vida, vida restante: "+vida);
 		}
-	}
+		
 }
